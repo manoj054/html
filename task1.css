@@ -1,0 +1,16 @@
+details{
+    width: 220px;
+    height: 220px;
+    border:  1px dotted black ;
+    border-radius: 5%;
+    text-align: center;
+    margin: 25%;
+    
+}
+details:not([open]){
+    width: 80px;
+}
+summary{
+    background: #dadada;
+    text-align: center;
+}
